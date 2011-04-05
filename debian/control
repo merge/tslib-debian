@@ -9,6 +9,8 @@ Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>,
 Build-Depends: debhelper (>= 5), automake | automaken, autoconf, libtool
 Standards-Version: 3.9.1
 Homepage: http://tslib.berlios.de/
+Vcs-SVN: svn://svn.debian.org/pkg-gpe/trunk/tslib/trunk/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gpe/trunk/tslib/trunk/
 
 Package: libts-0.0-0
 Architecture: any
