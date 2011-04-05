@@ -1,13 +1,13 @@
 Source: tslib
 Section: embedded
 Priority: optional
-Maintainer: Neil Williams <codehelp@debian.org>,
+Maintainer: Neil Williams <codehelp@debian.org>
 Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>,
  Moray Allan <moray@debian.org>,
  Phil Blundell <pb@debian.org>,
  Philippe De Swert <philippedeswert@scarlet.be>
 Build-Depends: debhelper (>= 5), automake | automaken, autoconf, libtool, dpatch
-Standards-Version: 3.8.1
+Standards-Version: 3.9.1
 Homepage: http://tslib.berlios.de/
 
 Package: libts-0.0-0
@@ -46,9 +46,9 @@ Description: touch screen library utilities
 
 Package: libts-0.0-0-dbg
 Architecture: any
-Section: libs
+Section: debug
 Priority: extra
-Depends: libts-0.0-0 (= ${binary:Version}), libts-bin (= ${binary:Version})
+Depends: libts-0.0-0 (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}
 Description: touch screen library debug symbols
  Tslib is an abstraction layer for touchscreen panel events, as well
  as a filter stack for the manipulation of those events.
