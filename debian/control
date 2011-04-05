@@ -6,7 +6,7 @@ Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>,
  Moray Allan <moray@debian.org>,
  Phil Blundell <pb@debian.org>,
  Philippe De Swert <philippedeswert@scarlet.be>
-Build-Depends: debhelper (>= 5), automake | automaken, autoconf, libtool, dpatch
+Build-Depends: debhelper (>= 5), automake | automaken, autoconf, libtool
 Standards-Version: 3.9.1
 Homepage: http://tslib.berlios.de/
 
