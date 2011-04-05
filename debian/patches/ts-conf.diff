@@ -1,10 +1,6 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 010-ts-conf.dpatch by Neil Williams <codehelp@debian.org>
+## ts-conf.diff by Neil Williams <codehelp@debian.org>
 ##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: use the linux input layer event interface
-
-@DPATCH@
+## use the linux input layer event interface
 
 --- tslib-1.0.orig/etc/ts.conf
 +++ tslib-1.0/etc/ts.conf

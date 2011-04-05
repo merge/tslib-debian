@@ -1,10 +1,7 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 030-32bitBE-support.dpatch by Neil Williams <codehelp@debian.org>
+## 32bitBE-support.diff by Neil Williams <codehelp@debian.org>
 ##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: See bug #496759 - being tested upstream for 32bit BE devices
+## See bug #496759 - being tested upstream for 32bit BE devices
 
-@DPATCH@
 diff -urNad tslib-1.0~/plugins/input-raw.c tslib-1.0/plugins/input-raw.c
 --- tslib-1.0~/plugins/input-raw.c	2008-12-09 10:56:47.000000000 +0000
 +++ tslib-1.0/plugins/input-raw.c	2008-12-09 11:05:41.000000000 +0000

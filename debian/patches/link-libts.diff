@@ -1,11 +1,7 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 020-link-libts.dpatch by Neil Williams <codehelp@debian.org>
+## link-libts.diff by Neil Williams <codehelp@debian.org>
 ##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: patch from the tslib mailing list to link modules that use tslib 
-## DP: functions with libts. This is needed for them to work with DirectFB.
-
-@DPATCH@
+## patch from the tslib mailing list to link modules that use tslib 
+## functions with libts. This is needed for them to work with DirectFB.
 
 --- tslib-1.0.orig/plugins/Makefile.am
 +++ tslib-1.0/plugins/Makefile.am
