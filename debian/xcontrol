@@ -1,0 +1,58 @@
+Source: tslib
+Section: embedded
+Priority: optional
+Maintainer: Neil Williams <codehelp@debian.org>,
+Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>,
+ Moray Allan <moray@debian.org>,
+ Phil Blundell <pb@debian.org>,
+ Philippe De Swert <philippedeswert@scarlet.be>
+Build-Depends-Tools: debhelper (>= 5), automake, autoconf, libtool, dpatch
+Standards-Version: 3.8.0
+X-Build-Cross-Libtool: yes
+Homepage: http://tslib.berlios.de/
+
+Package: libts-0.0-0
+Architecture: any
+Section: libs
+Priority: optional
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: tslib
+Provides: libts0, tslib
+Replaces: tslib
+Description: touch screen library
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events. Examples of implemented
+ filters include jitter smoothing and the calibration transform.
+
+Package: libts-dev
+Architecture: any
+Section: libdevel
+Depends: libts-0.0-0 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: touch screen library, development files
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events.
+ .
+ This package contains the static library and header files used in
+ development.
+
+Package: libts-bin
+Architecture: any
+Section: embedded
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: touch screen library utilities
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events.
+ .
+ This package contains a few test programs like ts_calibrate that can
+ be useful when developing or testing application using touch screens.
+
+Package: libts-0.0-0-dbg
+Architecture: any
+Section: libs
+Priority: extra
+Depends: libts-0.0-0 (= ${binary:Version}), libts-bin (= ${binary:Version})
+Description: touch screen library debug symbols
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events.
+ .
+ This package contains the debug symbols.

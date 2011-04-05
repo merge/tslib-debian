@@ -1,0 +1,17 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 010-ts-conf.dpatch by Neil Williams <codehelp@debian.org>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: use the linux input layer event interface
+
+@DPATCH@
+
+--- tslib-1.0.orig/etc/ts.conf
++++ tslib-1.0/etc/ts.conf
+@@ -1,5 +1,5 @@
+ # Uncomment if you wish to use the linux input layer event interface
+-# module_raw input
++module_raw input
+ 
+ # Uncomment if you're using a Sharp Zaurus SL-5500/SL-5000d
+ # module_raw collie

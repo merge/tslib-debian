@@ -1,0 +1,5 @@
+usr/include
+usr/lib/pkgconfig
+usr/lib/libts.la
+usr/lib/libts.so
+usr/lib/ts0/*.la

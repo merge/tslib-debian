@@ -1,0 +1,85 @@
+tslib (1.0-7) unstable; urgency=low
+
+  * Migrate conffile and manpage into tsconf data package and
+    migrate TSLIB_PLUGINDIR to /usr/lib/ts0/ so that plugin filenames
+    remain unique. (Closes: #519872)
+
+ -- Neil Williams <codehelp@debian.org>  Wed, 25 Mar 2009 11:04:45 +0000
+
+tslib (1.0-6) unstable; urgency=low
+
+  * Improve manpages to document change of Xorg driver to hal.
+  * Migrate into unstable
+
+ -- Neil Williams <codehelp@debian.org>  Fri, 06 Mar 2009 09:58:27 +0000
+
+tslib (1.0-5) experimental; urgency=low
+
+  * Add enviroment variables, including TSLIB_TSDEVICE, to manual page
+    for ts_calibrate and reference as 'see also' in other pages.
+    (Closes: #497516)
+  * Add patch for 32bit big endian support - being tested upstream -
+    to provide event interface on powerpc (Closes: #499446)
+  * Patch AC_INIT to use 0.1.0 in tslib-0.0.pc (Closes: #496759)
+  * Add 050-glibc2.8-ubuntu from 1.0-4ubuntu1, thanks to Michael
+    Casadevall <sonicmctails@gmail.com> - Failure to build resolved due
+    to glibc-2.8, resolved by modifying code to confirm to the new
+    open()/O_CREAT API by adding a mode setting
+  * Incorporate cross-building improvements from Emdebian
+  * Add a general manpage for /etc/ts.conf in libts-0.0-0
+
+ -- Neil Williams <codehelp@debian.org>  Sun, 14 Dec 2008 11:08:54 +0000
+
+tslib (1.0-4) unstable; urgency=low
+
+  * Failure to install libts-dev because duplicated .so files (Closes:
+    #463822)
+
+ -- Neil Williams <codehelp@debian.org>  Sun, 03 Feb 2008 17:14:24 +0000
+
+tslib (1.0-3) unstable; urgency=low
+
+  * rules: Add cross build support
+  * rules: Add -dbg package support
+  * control: Add Debian GPE team to uploaders.
+  * control: Add -dbg package.
+  * Migrate to libts-0.0-0.install
+  * Remove debian version number from symbols file
+  * Migrate symbols file to new package name
+  * Expand debian/copyright to machine-interpretable format
+  * Add very simple man pages - the binaries themselves have no options
+  * control: highlight use of libts-bin in developing touch screen apps,
+    rather than users
+  * control: Use embedded section and provide libts0
+  * fix the watch file so that the real tarball is downloaded, not a
+    webpage
+  * debian/README: add instructions on building from collab-maint SVN
+    (not a packaged file at this stage).
+  * Revert manual change to source files and implement as dpatches; add
+    dpatch support
+  * rules: Support a cache-file when cross compiling to find malloc
+  * changelog: Remove unnecessary ITP message.
+  * control: Rename -dbg package in line with new lib name. Rename -dev
+    package without SONAME.
+  * Remove Joey from Maintainer on his request. Remove Vcs-Svn as no
+    longer in collab-maint
+
+ -- Neil Williams <codehelp@debian.org>  Sun, 27 Jan 2008 21:13:47 +0000
+
+tslib (1.0-2) unstable; urgency=low
+
+  * Applied a patch from the tslib mailing list to link modules
+    that use tslib functions with libts. This is needed for them to work
+    with DirectFB.
+  * Uncomment the linux input module in ts.conf, since this is the one
+    most people will probably use.
+  * Add a symbols file.
+  * Misc packaging fixes.
+
+ -- Joey Hess <joeyh@debian.org>  Mon, 10 Dec 2007 18:09:38 -0500
+
+tslib (1.0-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Joey Hess <joeyh@debian.org>  Wed, 20 Dec 2006 11:24:41 -0500
