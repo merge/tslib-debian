@@ -1,3 +1,19 @@
+tslib (1.0-9) unstable; urgency=low
+
+  [ Timo Juhani Lindfors ]
+  * Add patch allow_EV_VERSION_0 to continue supporting Linux 2.6.36 and
+    older. Previously kernel support depended on the kernel headers that
+    tslib was built against. (Closes: #623095)
+  
+  * Do not refuse to work with old kernels. We can safely work with
+    kernels that use EV_VERSION 0x010000 API since we use no features from
+    0x010001 yet. (Closes: #623095)
+
+  [ Hector Oron ]
+  * Add myself to Uploaders field. 
+
+ -- Hector Oron <zumbi@debian.org>  Tue, 05 Jul 2011 17:14:47 +0100
+
 tslib (1.0-8) unstable; urgency=low
 
   * Drop .la file as per Policy 10.2 (Closes: #620658)

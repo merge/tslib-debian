@@ -5,7 +5,8 @@ Maintainer: Neil Williams <codehelp@debian.org>
 Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>,
  Moray Allan <moray@debian.org>,
  Phil Blundell <pb@debian.org>,
- Philippe De Swert <philippedeswert@scarlet.be>
+ Philippe De Swert <philippedeswert@scarlet.be>,
+ Hector Oron <zumbi@debian.org>
 Build-Depends: debhelper (>= 5), automake | automaken, autoconf, libtool
 Standards-Version: 3.9.1
 Homepage: http://tslib.berlios.de/
