@@ -8,7 +8,9 @@ else
 CROSS= --build $(DEB_BUILD_GNU_TYPE)
 endif
 
-build: build-stamp
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
 build-stamp:
 	dh_testdir
 	./autogen.sh
@@ -21,7 +23,7 @@ clean:
 	dh_testdir
 	dh_testroot
 	./autogen-clean.sh
-	dh_clean depcomp tslib-0.0.pc aclocal.m4 INSTALL
+	dh_clean depcomp tslib-0.0.pc aclocal.m4 INSTALL m4/internal/*
 	rm -f build-stamp
 
 binary-indep: build

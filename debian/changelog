@@ -12,7 +12,11 @@ tslib (1.0-9) unstable; urgency=low
   [ Hector Oron ]
   * Add myself to Uploaders field. 
 
- -- Hector Oron <zumbi@debian.org>  Tue, 05 Jul 2011 17:14:47 +0100
+  [ Neil Williams ]
+  * Clean m4/internal and adjust for the new symbols generated
+    (lintian). Update standards version.
+
+ -- Neil Williams <codehelp@debian.org>  Tue, 05 Jul 2011 19:45:03 +0100
 
 tslib (1.0-8) unstable; urgency=low
 
