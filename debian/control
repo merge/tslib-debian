@@ -14,7 +14,7 @@ Vcs-SVN: svn://svn.debian.org/pkg-gpe/trunk/tslib/trunk/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gpe/trunk/tslib/trunk/
 
 Package: libts-0.0-0
-Architecture: any
+Architecture: linux-any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}, tsconf
 Conflicts: tslib, libts0
@@ -26,7 +26,7 @@ Description: touch screen library
  filters include jitter smoothing and the calibration transform.
 
 Package: libts-dev
-Architecture: any
+Architecture: linux-any
 Section: libdevel
 Replaces: libts0
 Depends: libts-0.0-0 (= ${binary:Version}), ${misc:Depends}
@@ -38,7 +38,7 @@ Description: touch screen library, development files
  development.
 
 Package: libts-bin
-Architecture: any
+Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: touch screen library utilities
  Tslib is an abstraction layer for touchscreen panel events, as well as a
@@ -48,7 +48,7 @@ Description: touch screen library utilities
  be useful when developing or testing application using touch screens.
 
 Package: libts-0.0-0-dbg
-Architecture: any
+Architecture: linux-any
 Section: debug
 Priority: extra
 Depends: libts-0.0-0 (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}

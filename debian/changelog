@@ -1,3 +1,9 @@
+tslib (1.0-10) UNRELEASED; urgency=low
+
+  * Set Architecture to linux-any, instead of any.
+
+ -- Hector Oron <zumbi@debian.org>  Wed, 06 Jul 2011 10:13:55 +0100
+
 tslib (1.0-9) unstable; urgency=low
 
   [ Timo Juhani Lindfors ]
