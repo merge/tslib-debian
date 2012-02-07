@@ -214,7 +214,8 @@ xsltproc -''-nonet /usr/share/sgml/docbook/stylesheet/xsl/nwalsh/manpages/docboo
         </term>
         <listitem>
         <para>Plugin directory for tslib.</para>
-        <para>Default: <filename>/usr/lib/ts0/</filename>.</para>
+        <para>Default: <filename>/usr/lib/$triplet/ts0/</filename>
+        where triplet is the MultiArch path, e.g. arm-linux-gnueabi.</para>
         </listitem>
       </varlistentry>
     </variablelist>

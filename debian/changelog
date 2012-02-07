@@ -1,8 +1,13 @@
-tslib (1.0-10) UNRELEASED; urgency=low
+tslib (1.0-10) experimental; urgency=low
 
+  [ Hector Oron ]
   * Set Architecture to linux-any, instead of any.
 
- -- Hector Oron <zumbi@debian.org>  Wed, 06 Jul 2011 10:13:55 +0100
+  [ Neil Williams ]
+  * Convert to MultiArch paths
+  * Upload to experimental for plugin testing.
+
+ -- Neil Williams <codehelp@debian.org>  Tue, 07 Feb 2012 12:01:28 +0000
 
 tslib (1.0-9) unstable; urgency=low
 
