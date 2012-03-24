@@ -1,3 +1,9 @@
+tslib (1.0-11) unstable; urgency=low
+
+  * Upload multi-arch support to unstable. (Closes: #664817)
+
+ -- Neil Williams <codehelp@debian.org>  Sat, 24 Mar 2012 09:39:56 +0000
+
 tslib (1.0-10) experimental; urgency=low
 
   [ Hector Oron ]

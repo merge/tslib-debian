@@ -8,7 +8,7 @@ Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>,
  Philippe De Swert <philippedeswert@scarlet.be>,
  Hector Oron <zumbi@debian.org>
 Build-Depends: debhelper (>= 9), automake | automaken, autoconf, libtool
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://tslib.berlios.de/
 Vcs-SVN: svn://svn.debian.org/pkg-gpe/trunk/tslib/trunk/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gpe/trunk/tslib/trunk/
