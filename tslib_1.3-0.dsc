@@ -1,5 +1,3 @@
-Hash: SHA1
-
 Format: 3.0 (quilt)
 Source: tslib
 Binary: libts-1.3-0, libts-dev, libts-bin, libts-1.3-0-dbg, tsconf
