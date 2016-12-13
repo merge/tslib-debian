@@ -1,3 +1,12 @@
+tslib (1.3-0) experimental; urgency=low
+
+FIXME
+  * Initial packaging of tslib-1.3. (Closes: #FIXME)
+  * remove man pages. they are part of the project now.
+  * remove all patches. they are dealt with upstream.
+
+ -- Martin Kepplinger <martink@posteo.de>  FIXME 19:09:23 +0100
+
 tslib (1.0-11) unstable; urgency=low
 
   * Upload multi-arch support to unstable. (Closes: #664817)
