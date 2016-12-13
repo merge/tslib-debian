@@ -1,2 +1,2 @@
 # tslib-debian
-Files needed to build tslib for Debian
+Files needed to build [tslib](https://github.com/kergoth/tslib) for Debian
