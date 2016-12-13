@@ -25,7 +25,7 @@ clean:
 	dh_testdir
 	dh_testroot
 	./autogen-clean.sh
-	dh_clean depcomp tslib-0.0.pc aclocal.m4 INSTALL m4/internal/*
+	dh_clean depcomp aclocal.m4 INSTALL
 	rm -f build-stamp
 
 binary-indep: build
