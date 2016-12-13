@@ -1,19 +1,22 @@
-This package was downloaded from http://tslib.berlios.de/
+This package was downloaded from https://github.com/kergoth/tslib
 
 Files: src/*
 Licence: LGPL-2+
 Copyright:  2002 Russell King.
             2002 Nicolas Pitre
+            2016 Martin Kepplinger
 
 Files: tests/testutils.h
 Licence: LGPL-2+
 Copyright:  2004 Michael Opdenacker <michaelo@handhelds.org>
+            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: plugins/*
 Licence: LGPL-2+
 Copyright:  2002 Russell King.
             2002 Nicolas Pitre
             2003 Texas Instruments, Inc.
+            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -38,11 +41,13 @@ Copyright:  2002 Russell King.
             2003 Texas Instruments, Inc.
             2003 Chris Larson.
             2004 Michael Opdenacker <michaelo@handhelds.org>
+            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: debian/*
 Licence: GPL-2+
 Copyright : 2008  Joey Hess <joeyh@debian.org>
             2008  Neil Williams  <codehelp@debian.org>
+            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
    This package is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
