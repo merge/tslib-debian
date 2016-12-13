@@ -40,8 +40,6 @@ binary-arch: build
 ifeq (,$(findstring nodocs,$(DEB_BUILD_OPTIONS)))
 	dh_installdocs AUTHORS README
 	dh_installchangelogs ChangeLog
-	dh_installman -plibts-bin debian/*.1
-	dh_installman -ptsconf debian/*.5
 endif
 	dh_compress
 	dh_fixperms
