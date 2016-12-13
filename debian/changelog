@@ -1,4 +1,4 @@
-tslib (1.3-0) experimental; urgency=low
+tslib (1.3-1) experimental; urgency=low
 
   * Initial packaging of tslib-1.3. (Closes: #845181)
   * remove man pages. they are part of the project now.
