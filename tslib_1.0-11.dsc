@@ -1,21 +1,17 @@
------BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
 Format: 3.0 (quilt)
 Source: tslib
-Binary: libts-0.0-0, libts-dev, libts-bin, libts-0.0-0-dbg, tsconf
+Binary: libts-1.3-0, libts-dev, libts-bin, libts-1.3-0-dbg, tsconf
 Architecture: linux-any all
-Version: 1.0-11
-Maintainer: Neil Williams <codehelp@debian.org>
-Uploaders: Debian GPE team <pkg-gpe-maintainers@lists.alioth.debian.org>, Moray Allan <moray@debian.org>, Phil Blundell <pb@debian.org>, Philippe De Swert <philippedeswert@scarlet.be>, Hector Oron <zumbi@debian.org>
-Homepage: http://tslib.berlios.de/
+Version: 1.3-0
+Maintainer: Martin Kepplinger <martink@posteo.de>
+Homepage: https://github.com/kergoth/tslib
 Standards-Version: 3.9.3
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gpe/trunk/tslib/trunk/
-Vcs-Svn: svn://svn.debian.org/pkg-gpe/trunk/tslib/trunk/
 Build-Depends: debhelper (>= 9), automake | automaken, autoconf, libtool
 Package-List: 
- libts-0.0-0 deb libs optional
- libts-0.0-0-dbg deb debug extra
+ libts-1.3-0 deb libs optional
+ libts-1.3-0-dbg deb debug extra
  libts-bin deb embedded optional
  libts-dev deb libdevel optional
  tsconf deb embedded optional
@@ -28,11 +24,3 @@ Checksums-Sha256:
 Files: 
  92b2eb55b1e4ef7e2c0347069389390e 47522 tslib_1.0.orig.tar.bz2
  72329b6414b7a4eef8b90a35548bfb0f 13451 tslib_1.0-11.debian.tar.gz
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
-
-iEYEARECAAYFAk9tvV4ACgkQiAEJSii8s+MznACfTXDUe6LuCbHZmF9316rc1cTO
-JX4AnA2f/76RJyZ/INc+B7kY4Du61xVL
-=yGNH
------END PGP SIGNATURE-----
