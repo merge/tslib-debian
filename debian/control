@@ -3,12 +3,12 @@ Section: embedded
 Priority: optional
 Maintainer: Martin Kepplinger <martink@posteo.de>
 Build-Depends: debhelper (>= 9), automake | automaken, autoconf, libtool
-Standards-Version: 3.9.3
+Standards-Version: 3.9.6
 Homepage: https://github.com/kergoth/tslib
 #Vcs-SVN: svn://svn.debian.org/pkg-gpe/trunk/tslib/trunk/
 #Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gpe/trunk/tslib/trunk/
 
-Package: libts-1.3-1
+Package: libts
 Architecture: linux-any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -22,7 +22,7 @@ Description: touch screen library
 Package: libts-dev
 Architecture: linux-any
 Section: libdevel
-Depends: libts-1.3-1 (= ${binary:Version}), ${misc:Depends}
+Depends: libts (= ${binary:Version}), ${misc:Depends}
 Multi-Arch: same
 Description: touch screen library, development files
  Tslib is an abstraction layer for touchscreen panel events, as well as a
@@ -42,11 +42,11 @@ Description: touch screen library utilities
  This package contains programs like ts_calibrate or ts_uinput that can
  be useful when developing or testing application using touch screens.
 
-Package: libts-1.3-1-dbg
+Package: libts-dbg
 Architecture: linux-any
 Section: debug
 Priority: extra
-Depends: libts-1.3-1 (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}
+Depends: libts (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}
 Description: touch screen library debug symbols
  Tslib is an abstraction layer for touchscreen panel events, as well
  as a filter stack for the manipulation of those events.
