@@ -1,3 +1,2 @@
-version=2
-opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/tslib-$1\.tar\.gz/ \
-  https://github.com/kergoth/tslib/tags .*/v?(\d\S+)\.tar\.gz
+version=3
+https://github.com/kergoth/tslib/releases .*/tslib-(\d\.\d)\.tar\.(?:bz2|gz|xz)
