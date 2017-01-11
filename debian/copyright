@@ -1,10 +1,12 @@
-This package was downloaded from https://github.com/kergoth/tslib
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: tslib
+Source: https://github.com/kergoth/tslib
 
 Files: src/*
 Licence: LGPL-2+
 Copyright:  2002 Russell King.
             2002 Nicolas Pitre
-            2016 Martin Kepplinger
+            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: tests/testutils.h
 Licence: LGPL-2+
@@ -18,21 +20,6 @@ Copyright:  2002 Russell King.
             2003 Texas Instruments, Inc.
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
-
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
-
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software 
- Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, 
- MA 02110-1301, USA.
-
 Files: tests/* 
 Licence: GPL-2+
 Copyright:  2002 Russell King.
@@ -43,28 +30,12 @@ Copyright:  2002 Russell King.
             2004 Michael Opdenacker <michaelo@handhelds.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
+Files: tools/* 
+Licence: GPL-2+
+Copyright:  2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
+
 Files: debian/*
 Licence: GPL-2+
 Copyright : 2008  Joey Hess <joeyh@debian.org>
             2008  Neil Williams  <codehelp@debian.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
-
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; version 2 dated June, 1991, or
-   (at your option) any later version.
-
-   This package is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this package; if not, write to the Free Software 
-   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, 
-   MA 02110-1301, USA.
-
-On Debian systems, the complete text of the GNU General
-Public License can be found in '/usr/share/common-licenses/GPL-2' and
-the complete text of the GNU Library (now Lesser) public
-license can be found in the file '/usr/share/common-licenses/LGPL-2'
