@@ -38,6 +38,7 @@ binary-arch: build
 	dh_install --sourcedir=debian/tmp --list-missing
 ifeq (,$(findstring nodocs,$(DEB_BUILD_OPTIONS)))
 	dh_installdocs AUTHORS README
+	dh_installman
 	dh_installchangelogs ChangeLog
 endif
 	dh_compress
