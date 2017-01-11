@@ -10,6 +10,7 @@ The Debian package of [tslib](https://github.com/kergoth/tslib) version 1.3
 For prerequisites and details, see the [Debian Wiki](https://wiki.debian.org/Packaging/Intro).
 
 ### how to build using the script
+`./autobuild.sh` will clean the `output` directory, fetch the latest tarball and build everything in the `output` directory.
 
 ### background
 
