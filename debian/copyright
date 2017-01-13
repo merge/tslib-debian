@@ -36,6 +36,6 @@ Copyright:  2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: debian/*
 Licence: GPL-2+
-Copyright : 2008  Joey Hess <joeyh@debian.org>
-            2008  Neil Williams  <codehelp@debian.org>
+Copyright : 2008 Joey Hess <joeyh@debian.org>
+            2008 Neil Williams <codehelp@debian.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
