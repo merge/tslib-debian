@@ -2,45 +2,50 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: tslib
 Source: https://github.com/kergoth/tslib
 
+Files: *
+License: LGPL-2+
+Copyright:  2002 Russell King
+            2002 Doug Lowder
+            2003 Chris Larson
+            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
+
 Files: src/*
-Licence: LGPL-2+
-Copyright:  2002 Russell King.
+License: LGPL-2+
+Copyright:  2002 Russell King
             2002 Nicolas Pitre
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
-Files: tests/testutils.h
-Licence: LGPL-2+
-Copyright:  2004 Michael Opdenacker <michaelo@handhelds.org>
-            2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
-
 Files: plugins/*
-Licence: LGPL-2+
-Copyright:  2002 Russell King.
+License: LGPL-2+
+Copyright:  2002 Russell King
             2002 Nicolas Pitre
             2003 Texas Instruments, Inc.
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: tests/*
-Licence: GPL-2+
-Copyright:  2002 Russell King.
+License: GPL-2+
+Copyright:  2002 Russell King
             2002 Nicolas Pitre
             2002 Doug Lowder
             2003 Texas Instruments, Inc.
-            2003 Chris Larson.
+            2003 Chris Larson
             2004 Michael Opdenacker <michaelo@handhelds.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: tools/*
-Licence: GPL-2+
+License: GPL-2+
 Copyright:  2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: debian/*
-Licence: GPL-2+
+License: GPL-2+
 Copyright:  2008 Joey Hess <joeyh@debian.org>
             2008 Neil Williams <codehelp@debian.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
-On Debian systems, the complete text of the GNU General
-Public License can be found in '/usr/share/common-licenses/GPL-2' and
-the complete text of the GNU Library (now Lesser) public
-license can be found in the file '/usr/share/common-licenses/LGPL-2'
+License: GPL-2+
+  The complete text of the GNU General Public License can be found in
+  '/usr/share/common-licenses/GPL-2'
+
+License: LGPL-2+
+  The complete text of the GNU Library (now Lesser) public
+  license can be found in the file '/usr/share/common-licenses/LGPL-2'
