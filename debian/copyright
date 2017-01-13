@@ -20,7 +20,7 @@ Copyright:  2002 Russell King.
             2003 Texas Instruments, Inc.
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
-Files: tests/* 
+Files: tests/*
 Licence: GPL-2+
 Copyright:  2002 Russell King.
             2002 Nicolas Pitre
@@ -30,12 +30,17 @@ Copyright:  2002 Russell King.
             2004 Michael Opdenacker <michaelo@handhelds.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
-Files: tools/* 
+Files: tools/*
 Licence: GPL-2+
 Copyright:  2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
 
 Files: debian/*
 Licence: GPL-2+
-Copyright : 2008 Joey Hess <joeyh@debian.org>
+Copyright:  2008 Joey Hess <joeyh@debian.org>
             2008 Neil Williams <codehelp@debian.org>
             2016 Martin Kepplinger <martin.kepplinger@ginzinger.com>
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in '/usr/share/common-licenses/GPL-2' and
+the complete text of the GNU Library (now Lesser) public
+license can be found in the file '/usr/share/common-licenses/LGPL-2'
