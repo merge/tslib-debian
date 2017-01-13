@@ -9,47 +9,16 @@ else
 CROSS= --build $(DEB_BUILD_GNU_TYPE)
 endif
 
-build: build-arch build-indep
-build-arch: build-stamp
-build-indep: build-stamp
-build-stamp:
-	dh_testdir
-	./configure --prefix=/usr --with-plugindir=/usr/lib/$(DEB_HOST_MULTIARCH)/ts0 \
+#DH_VERBOSE = 1
+#export DH_OPTIONS=-v
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- --prefix=/usr --with-plugindir=/usr/lib/$(DEB_HOST_MULTIARCH)/ts0 \
 		--libdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH) \
 		--sysconfdir=/etc $(CROSS)
-	$(MAKE)
-	touch build-stamp
 
-clean:
-	dh_testdir
-	dh_testroot
-#	./autogen-clean.sh
-	dh_clean aclocal.m4
-	rm -f build-stamp
-
-binary-indep: build
-
-binary-arch: build
-	dh_testdir
-	dh_testroot
-	dh_clean
-	$(MAKE) DESTDIR=$(shell pwd)/debian/tmp install
-	dh_installdirs
-	dh_install --sourcedir=debian/tmp --list-missing
-ifeq (,$(findstring nodocs,$(DEB_BUILD_OPTIONS)))
-	dh_installdocs AUTHORS README
-	dh_installman
-	dh_installchangelogs ChangeLog
-endif
-	dh_compress
-	dh_fixperms
+override_dh_strip:
 	dh_strip --dbg-package=libts-dbg
-	dh_makeshlibs
-	dh_shlibdeps
-	dh_gencontrol
-	dh_installdeb
-	dh_md5sums
-	dh_builddeb
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary
