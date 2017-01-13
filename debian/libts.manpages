@@ -6,7 +6,13 @@ doc/ts_finddev.1
 doc/ts_harvest.1
 doc/ts_open.3
 doc/ts_print.1
+doc/ts_print_raw.1
+doc/ts_print_mt.1
+doc/ts_print_raw_mt.1
 doc/ts_read.3
+doc/ts_read_mt.3
+doc/ts_read_raw.3
+doc/ts_read_raw_mt.3
 doc/ts_test.1
 doc/ts_test_mt.1
 doc/ts_uinput.1
