@@ -4,5 +4,24 @@ mkdir -p output/tslib-sources
 cp -a debian output/tslib-sources/
 cd output/tslib-sources
 uscan --force-download
-tar -xvf ../tslib-1.4.tar.bz2 --strip-components=1
-debuild -us -uc
+tar -xvf ../tslib-1.4.tar.xz --strip-components=1
+cd ..
+wget https://github.com/kergoth/tslib/releases/download/1.4/tslib-1.4.tar.xz.sha256
+sha256sum tslib-1.4.tar.xz > tslib-1.4.hash
+DIFF=$(diff tslib-1.4.tar.xz.sha256 tslib-1.4.hash)
+if [ "$DIFF" != "" ]
+then
+	echo "===================================="
+	echo "|                                  |"
+	echo "|         Error: bad hash          |"
+	echo "|                                  |"
+	echo "===================================="
+else
+	echo "===================================="
+	echo "|                                  |"
+	echo "|             hash ok              |"
+	echo "|                                  |"
+	echo "===================================="
+fi
+cd tslib-sources
+debuild
