@@ -1,4 +1,4 @@
-libts-1.4.so.0 libts #MINVER#
+libts-1.5.so.0 libts #MINVER#
  ts_close@Base 1.0
  ts_config@Base 1.0
  ts_reconfig@Base 1.3
