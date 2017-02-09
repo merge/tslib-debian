@@ -3,7 +3,7 @@ Section: embedded
 Priority: optional
 Maintainer: Martin Kepplinger <martink@posteo.de>
 Build-Depends: debhelper (>= 9), automake | automaken, autoconf, libtool, dh-autoreconf
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://github.com/kergoth/tslib
 Vcs-Git: https://github.com/kergoth/tslib.git
 Vcs-Browser: https://github.com/kergoth/tslib
