@@ -6,7 +6,7 @@ tslib (1.5-1) experimental; urgency=low
   * use dh and autoreconf in rules.
   * Upload to experimental for initial testing.
 
- -- Martin Kepplinger <martink@posteo.de>  Wed, 01 Feb 2017 19:09:23 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Thu, 09 Feb 2017 14:09:23 +0100
 
 tslib (1.0-11) unstable; urgency=low
 
