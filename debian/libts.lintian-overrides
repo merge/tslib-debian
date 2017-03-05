@@ -1,1 +1,0 @@
-libts: non-dev-pkg-with-shlib-symlink usr/lib/x86_64-linux-gnu/libts.so.0.3.0 usr/lib/x86_64-linux-gnu/libts.so

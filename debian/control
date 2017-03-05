@@ -8,7 +8,7 @@ Homepage: https://github.com/kergoth/tslib
 Vcs-Git: https://github.com/kergoth/tslib.git
 Vcs-Browser: https://github.com/kergoth/tslib
 
-Package: libts
+Package: libts0
 Architecture: linux-any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -22,7 +22,7 @@ Description: touch screen library
 Package: libts-dev
 Architecture: linux-any
 Section: libdevel
-Depends: libts, ${misc:Depends}
+Depends: libts0 (=${binary:Version}), ${misc:Depends}
 Multi-Arch: same
 Description: touch screen library, development files
  Tslib is an abstraction layer for touchscreen panel events, as well as a
@@ -33,7 +33,7 @@ Description: touch screen library, development files
 
 Package: libts-bin
 Architecture: linux-any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libts0 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: foreign
 Description: touch screen library utilities
  Tslib is an abstraction layer for touchscreen panel events, as well as a
@@ -46,7 +46,7 @@ Package: libts-dbg
 Architecture: linux-any
 Section: debug
 Priority: extra
-Depends: libts (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}
+Depends: libts0 (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}
 Description: touch screen library debug symbols
  Tslib is an abstraction layer for touchscreen panel events, as well
  as a filter stack for the manipulation of those events.
