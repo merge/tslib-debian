@@ -5,6 +5,8 @@ tslib (1.6-1) experimental; urgency=low
   * remove all patches. they are dealt with upstream.
   * use dh and autoreconf in rules.
   * Upload to experimental for initial testing.
+  * remove tsconf package and include ts.conf in libts
+  * add hardening config
 
  -- Martin Kepplinger <martink@posteo.de>  Thu, 09 Feb 2017 14:09:23 +0100
 
