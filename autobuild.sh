@@ -1,6 +1,6 @@
 #/bin/bash
 
-VERSION="1.7"
+VERSION="1.8"
 
 rm -rf output
 mkdir -p output/tslib-sources
@@ -12,7 +12,7 @@ cd ..
 wget https://github.com/kergoth/tslib/releases/download/${VERSION}/tslib-${VERSION}.tar.xz.sha256
 sha256sum tslib-${VERSION}.tar.xz > tslib-${VERSION}.hash
 
-DIFF=$(diff tslib-1.7.tar.xz.sha256 tslib-1.7.hash)
+DIFF=$(diff tslib-1.8.tar.xz.sha256 tslib-1.8.hash)
 
 if [ "$DIFF" != "" ]
 then

@@ -22,6 +22,9 @@ collie.so libts0 #MINVER#
 corgi.so libts0 #MINVER#
  corgi_mod_init@Base 1.0
  mod_init@Base 1.0
+cy8mrln_palmpre.so libts0 #MINVER#
+ cy8mrln_palmpre_mod_init@Base 1.1
+ mod_init@Base 1.1
 debounce.so libts0 #MINVER#
  debounce_mod_init@Base 1.2
  mod_init@Base 1.2
