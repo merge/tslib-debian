@@ -1,14 +1,13 @@
-tslib (1.8-1) experimental; urgency=low
+tslib (1.8-1) unstable; urgency=low
 
-  * Initial packaging of tslib. (Closes: #845181)
+  * Initial re-packaging of tslib. (Closes: #845181)
   * remove man pages. they are part of the project now.
   * remove all patches. they are dealt with upstream.
   * use dh and autoreconf in rules.
-  * Upload to experimental for initial testing.
-  * remove tsconf package and include ts.conf in libts
-  * add hardening config
+  * remove tsconf package and include ts.conf in libts.
+  * add hardening config.
 
- -- Martin Kepplinger <martink@posteo.de>  Tue, 21 Mar 2017 22:46:23 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Thu, 23 Mar 2017 11:46:23 +0100
 
 tslib (1.0-11) unstable; urgency=low
 
