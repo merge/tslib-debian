@@ -5,8 +5,8 @@ Maintainer: Martin Kepplinger <martink@posteo.de>
 Build-Depends: debhelper (>= 10), automake | automaken, autoconf, libtool, dh-autoreconf
 Standards-Version: 3.9.8
 Homepage: http://tslib.org
-Vcs-Git: https://github.com/kergoth/tslib.git
-Vcs-Browser: https://github.com/kergoth/tslib
+Vcs-Git: https://github.com/merge/tslib-debian
+Vcs-Browser: https://github.com/merge/tslib-debian
 
 Package: libts0
 Architecture: linux-any
