@@ -2,7 +2,7 @@ Source: tslib
 Section: embedded
 Priority: optional
 Maintainer: Martin Kepplinger <martink@posteo.de>
-Build-Depends: debhelper (>= 9), automake | automaken, autoconf, libtool, dh-autoreconf
+Build-Depends: debhelper (>= 10), automake | automaken, autoconf, libtool, dh-autoreconf
 Standards-Version: 3.9.8
 Homepage: http://tslib.org
 Vcs-Git: https://github.com/kergoth/tslib.git
@@ -41,15 +41,3 @@ Description: touch screen library utilities
  .
  This package contains programs like ts_calibrate or ts_uinput that can
  be useful when developing or testing application using touch screens.
-
-Package: libts-dbg
-Architecture: linux-any
-Section: debug
-Priority: extra
-Depends: libts0 (= ${binary:Version}), libts-bin (= ${binary:Version}), ${misc:Depends}
-Multi-Arch: same
-Description: touch screen library debug symbols
- Tslib is an abstraction layer for touchscreen panel events, as well
- as a filter stack for the manipulation of those events.
- .
- This package contains the debug symbols.
