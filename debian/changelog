@@ -3,6 +3,7 @@ tslib (1.8-2) unstable; urgency=low
   * switch to debhelper 10
   * remove manual debug package creation
   * add missing ts_setup manpage
+  * install missing libts.so to libts-dev package
 
  -- Martin Kepplinger <martink@posteo.de>  Tue, 11 Apr 2017 12:09:19 +0100
 
