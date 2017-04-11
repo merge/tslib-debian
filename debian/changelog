@@ -1,9 +1,10 @@
 tslib (1.8-2) unstable; urgency=low
 
   * switch to debhelper 10
-  * use automatic dbgsym package generation
+  * remove manual debug package creation
+  * add missing ts_setup manpage
 
- -- Martin Kepplinger <martink@posteo.de>  Mon, 10 Apr 2017 17:09:19 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Tue, 11 Apr 2017 12:09:19 +0100
 
 tslib (1.8-1) unstable; urgency=low
 
