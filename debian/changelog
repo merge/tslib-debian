@@ -1,3 +1,9 @@
+tslib (1.8-3) unstable; urgency=low
+
+  * libts0 Breaks and Replaces the old tsconf package conffile (Closes: #860100)
+
+ -- Martin Kepplinger <martink@posteo.de>  Wed, 12 Apr 2017 08:01:31 +0100
+
 tslib (1.8-2) unstable; urgency=low
 
   * switch to debhelper 10
