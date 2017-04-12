@@ -2,7 +2,7 @@ Source: tslib
 Section: embedded
 Priority: optional
 Maintainer: Martin Kepplinger <martink@posteo.de>
-Build-Depends: debhelper (>= 10), automake | automaken, autoconf, libtool, dh-autoreconf
+Build-Depends: debhelper (>= 10), automake | automaken, autoconf, libtool
 Standards-Version: 3.9.8
 Homepage: http://tslib.org
 Vcs-Git: https://github.com/merge/tslib-debian
