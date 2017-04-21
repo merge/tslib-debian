@@ -1,8 +1,11 @@
-tslib (1.8-4) unstable; urgency=low
+tslib (1.9-1) unstable; urgency=low
 
+  * bump to upstream version 1.9
+  * add iir filter symbols, introduced in 1.9
+  * add ts_verify's manpage introduced in 1.9
   * remove dh-autoreconf build dependency
 
- -- Martin Kepplinger <martink@posteo.de>  Wed, 12 Apr 2017 08:01:31 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Fri, 21 Apr 2017 08:28:31 +0100
 
 tslib (1.8-3) unstable; urgency=low
 

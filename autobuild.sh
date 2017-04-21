@@ -1,6 +1,6 @@
 #/bin/bash
 
-VERSION="1.8"
+VERSION="1.9"
 
 rm -rf output
 mkdir -p output/tslib-sources

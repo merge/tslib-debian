@@ -39,6 +39,9 @@ galax.so libts0 #MINVER#
 h3600.so libts0 #MINVER#
  h3600_mod_init@Base 1.0
  mod_init@Base 1.0
+iir.so libts0 #MINVER#
+ iir_mod_init@Base 1.9
+ mod_init@Base 1.0
 input.so libts0 #MINVER#
  input_mod_init@Base 1.0
  mod_init@Base 1.0
