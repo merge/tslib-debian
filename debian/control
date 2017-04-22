@@ -19,7 +19,8 @@ Multi-Arch: same
 Description: touch screen library
  Tslib is an abstraction layer for touchscreen panel events, as well as a
  filter stack for the manipulation of those events. Examples of implemented
- filters include jitter smoothing and the calibration transform.
+ filters include debounce, median, iir, dejitter and the calibration
+ transform.
 
 Package: libts-dev
 Architecture: linux-any
@@ -42,4 +43,4 @@ Description: touch screen library utilities
  filter stack for the manipulation of those events.
  .
  This package contains programs like ts_calibrate or ts_uinput that can
- be useful when developing or testing application using touch screens.
+ be useful when developing, testing or deploying applications using tslib.
