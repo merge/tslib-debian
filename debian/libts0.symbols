@@ -5,6 +5,7 @@ libts.so.0 libts0 #MINVER#
  ts_setup@Base 1.4
  ts_error_fn@Base 1.0
  ts_fd@Base 1.0
+ ts_libversion@Base 1.10
  ts_load_module@Base 1.0
  ts_open@Base 1.0
  ts_option@Base 1.1

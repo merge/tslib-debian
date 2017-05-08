@@ -16,4 +16,5 @@ doc/ts_read_raw_mt.3
 doc/ts_test.1
 doc/ts_test_mt.1
 doc/ts_uinput.1
-debian/ts_verify.1
+doc/ts_verify.1
+doc/ts_libversion.3
