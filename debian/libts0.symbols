@@ -23,9 +23,6 @@ collie.so libts0 #MINVER#
 corgi.so libts0 #MINVER#
  corgi_mod_init@Base 1.0
  mod_init@Base 1.0
-cy8mrln_palmpre.so libts0 #MINVER#
- cy8mrln_palmpre_mod_init@Base 1.1
- mod_init@Base 1.1
 debounce.so libts0 #MINVER#
  debounce_mod_init@Base 1.2
  mod_init@Base 1.2
@@ -33,6 +30,7 @@ dejitter.so libts0 #MINVER#
  dejitter_mod_init@Base 1.0
  mod_init@Base 1.0
 dmc.so libts0 #MINVER#
+ dmc_mod_init@Base 1.10
  mod_init@Base 1.0
 galax.so libts0 #MINVER#
  galax_mod_init@Base 1.0
@@ -68,6 +66,7 @@ tatung.so libts0 #MINVER#
  mod_init@Base 1.0
  tatung_mod_init@Base 1.0
 touchkit.so libts0 #MINVER#
+ touchkit_mod_init@Base 1.10
  mod_init@Base 1.0
 ucb1x00.so libts0 #MINVER#
  mod_init@Base 1.0
