@@ -18,3 +18,5 @@ doc/ts_test_mt.1
 doc/ts_uinput.1
 doc/ts_verify.1
 doc/ts_libversion.3
+doc/ts_fd.3
+doc/ts_error_fn.3
