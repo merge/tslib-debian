@@ -2,7 +2,7 @@ tslib (1.11-1) unstable; urgency=low
 
   * bump to upstream version 1.11 and add the new manpages
 
- -- Martin Kepplinger <martink@posteo.de>  Wed, 24 May 2017 14:19:34 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Tue, 06 Jun 2017 14:51:03 +0100
 
 tslib (1.10-1) unstable; urgency=low
 
