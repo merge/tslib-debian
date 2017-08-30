@@ -1,0 +1,32 @@
+From dfbb20052f41e12b1ea1eae892cfc2b9db1ccda2 Mon Sep 17 00:00:00 2001
+From: Martin Kepplinger <martin.kepplinger@ginzinger.com>
+Date: Wed, 30 Aug 2017 10:53:42 +0200
+Subject: [PATCH] configure.ac: fix M4sh scripting issue
+
+Signed-off-by: Martin Kepplinger <martin.kepplinger@ginzinger.com>
+---
+ configure.ac | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 967ce9d..eba0cb4 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -173,12 +173,12 @@ AC_ARG_WITH(sdl2,
+   [with_sdl2=no])
+ 
+ AM_CONDITIONAL(SDL, test x"$with_sdl2" = "xyes")
+-if test x"$with_sdl2" = "xyes" ; then
++AS_IF([test "x$with_sdl2" = "xyes"], [
+   AC_DEFINE(HAVE_SDL2,,[Use SDL2.])
+   PKG_CHECK_MODULES([SDL2], [sdl2], [], [
+     AC_CHECK_LIB([SDL2], [SDL_Init], [], [exit 1])
+   ])
+-fi
++])
+ 
+ # libts Library versioning
+ # increment if the interface changed
+-- 
+2.11.0
+
