@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/merge/tslib-debian
 Vcs-Browser: https://github.com/merge/tslib-debian
 
 Package: libts0
-Architecture: linux-any
+Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -23,7 +23,7 @@ Description: touch screen library
  transform.
 
 Package: libts-dev
-Architecture: linux-any
+Architecture: any
 Section: libdevel
 Depends: libts0 (=${binary:Version}), ${misc:Depends}
 Multi-Arch: same
@@ -35,7 +35,7 @@ Description: touch screen library, development files
  development.
 
 Package: libts-bin
-Architecture: linux-any
+Architecture: any
 Depends: libts0 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: foreign
 Description: touch screen library utilities
