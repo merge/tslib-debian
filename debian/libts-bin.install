@@ -1,3 +1,2 @@
 usr/bin
-debian/org.tslib.ts_calibrate.desktop
-debian/org.tslib.ts_test_mt.desktop
+debian/*.desktop /usr/share/applications
