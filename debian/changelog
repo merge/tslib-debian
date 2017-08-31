@@ -4,7 +4,7 @@ tslib (1.12-4) unstable; urgency=low
   * Updated copyright information
   * Add desktop files for ts_calibrate and ts_test_mt
 
- -- Martin Kepplinger <martink@posteo.de>  Thu, 31 Aug 2017 07:11:24 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Thu, 31 Aug 2017 09:08:50 +0100
 
 tslib (1.12-3) unstable; urgency=low
 
