@@ -1,3 +1,9 @@
+tslib (1.12-5) unstable; urgency=low
+
+  * Add an upstream patch to fix the build for GNU/kFreeBSD
+
+ -- Martin Kepplinger <martink@posteo.de>  Fri, 01 Sep 2017 07:30:34 +0100
+
 tslib (1.12-4) unstable; urgency=low
 
   * Verified that 1.12-3 fixes the build (Closes:#873693)
