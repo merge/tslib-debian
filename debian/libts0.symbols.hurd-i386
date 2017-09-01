@@ -34,17 +34,11 @@ dejitter.so libts0 #MINVER#
 dmc.so libts0 #MINVER#
  dmc_mod_init@Base 1.10
  mod_init@Base 1.0
-galax.so libts0 #MINVER#
- galax_mod_init@Base 1.0
- mod_init@Base 1.0
 h3600.so libts0 #MINVER#
  h3600_mod_init@Base 1.0
  mod_init@Base 1.0
 iir.so libts0 #MINVER#
  iir_mod_init@Base 1.9
- mod_init@Base 1.0
-input.so libts0 #MINVER#
- input_mod_init@Base 1.0
  mod_init@Base 1.0
 linear.so libts0 #MINVER#
  linear_mod_init@Base 1.0
@@ -76,6 +70,3 @@ ucb1x00.so libts0 #MINVER#
 variance.so libts0 #MINVER#
  mod_init@Base 1.0
  variance_mod_init@Base 1.0
-waveshare.so libts0 #MINVER#
- mod_init@Base 1.2
- waveshare_mod_init@Base 1.2
