@@ -4,6 +4,7 @@ tslib (1.12-5) unstable; urgency=low
   * Remove patches as they are upstream
   * Add symbols files for hurd-i386, kfreebsd-amd64 and kfreebsd-i386
   * Add new library symbols to symbols files
+  * Add new library manpages
 
  -- Martin Kepplinger <martink@posteo.de>  Fri, 01 Sep 2017 09:30:34 +0100
 
