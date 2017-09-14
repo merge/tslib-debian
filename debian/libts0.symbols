@@ -34,9 +34,6 @@ dejitter.so libts0 #MINVER#
 dmc.so libts0 #MINVER#
  dmc_mod_init@Base 1.10
  mod_init@Base 1.0
-galax.so libts0 #MINVER#
- galax_mod_init@Base 1.0
- mod_init@Base 1.0
 h3600.so libts0 #MINVER#
  h3600_mod_init@Base 1.0
  mod_init@Base 1.0

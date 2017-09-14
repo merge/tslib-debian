@@ -1,4 +1,4 @@
-tslib (1.12-5) unstable; urgency=low
+tslib (1.13-1) unstable; urgency=low
 
   * Update to tslib version 1.13
   * Remove patches as they are upstream
@@ -6,7 +6,7 @@ tslib (1.12-5) unstable; urgency=low
   * Add new library symbols to symbols files
   * Add new library manpages
 
- -- Martin Kepplinger <martink@posteo.de>  Fri, 01 Sep 2017 09:30:34 +0100
+ -- Martin Kepplinger <martink@posteo.de>  Thu, 14 Sep 2017 09:23:12 +0100
 
 tslib (1.12-5) unstable; urgency=low
 
