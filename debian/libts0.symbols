@@ -16,26 +16,11 @@ libts.so.0 libts0 #MINVER#
  ts_read_raw@Base 1.0
  ts_read_raw_mt@Base 1.3
  tslib_parse_vars@Base 1.0
-arctic2.so libts0 #MINVER#
- arctic2_mod_init@Base 1.0
- mod_init@Base 1.0
-collie.so libts0 #MINVER#
- collie_mod_init@Base 1.0
- mod_init@Base 1.0
-corgi.so libts0 #MINVER#
- corgi_mod_init@Base 1.0
- mod_init@Base 1.0
 debounce.so libts0 #MINVER#
  debounce_mod_init@Base 1.2
  mod_init@Base 1.2
 dejitter.so libts0 #MINVER#
  dejitter_mod_init@Base 1.0
- mod_init@Base 1.0
-dmc.so libts0 #MINVER#
- dmc_mod_init@Base 1.10
- mod_init@Base 1.0
-h3600.so libts0 #MINVER#
- h3600_mod_init@Base 1.0
  mod_init@Base 1.0
 iir.so libts0 #MINVER#
  iir_mod_init@Base 1.9
@@ -46,15 +31,9 @@ input.so libts0 #MINVER#
 linear.so libts0 #MINVER#
  linear_mod_init@Base 1.0
  mod_init@Base 1.0
-linear_h2200.so libts0 #MINVER#
- linear_h2200_mod_init@Base 1.0
- mod_init@Base 1.0
 median.so libts0 #MINVER#
  median_mod_init@Base 1.3
  mod_init@Base 1.3
-mk712.so libts0 #MINVER#
- mk712_mod_init@Base 1.0
- mod_init@Base 1.0
 pthres.so libts0 #MINVER#
  mod_init@Base 1.0
  pthres_mod_init@Base 1.0
@@ -67,12 +46,12 @@ tatung.so libts0 #MINVER#
 touchkit.so libts0 #MINVER#
  touchkit_mod_init@Base 1.10
  mod_init@Base 1.0
-ucb1x00.so libts0 #MINVER#
- mod_init@Base 1.0
- ucb1x00_mod_init@Base 1.0
 variance.so libts0 #MINVER#
  mod_init@Base 1.0
  variance_mod_init@Base 1.0
 waveshare.so libts0 #MINVER#
  mod_init@Base 1.2
  waveshare_mod_init@Base 1.2
+lowpass.so libts0 #MINVER#
+ mod_init@Base 1.0
+ lowpass_mod_init@Base 1.14
