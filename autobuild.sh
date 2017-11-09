@@ -2,6 +2,8 @@
 
 VERSION="1.13"
 
+set -e
+
 rm -rf output
 mkdir -p output/tslib-sources
 cp -a debian output/tslib-sources/
