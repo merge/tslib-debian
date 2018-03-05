@@ -38,9 +38,6 @@ pthres.so libts0 #MINVER#
 skip.so libts0 #MINVER#
  mod_init@Base 1.2
  skip_mod_init@Base 1.2
-tatung.so libts0 #MINVER#
- mod_init@Base 1.0
- tatung_mod_init@Base 1.0
 touchkit.so libts0 #MINVER#
  touchkit_mod_init@Base 1.10
  mod_init@Base 1.0
