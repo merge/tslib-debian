@@ -26,9 +26,15 @@ dejitter.so libts0 #MINVER#
 iir.so libts0 #MINVER#
  iir_mod_init@Base 1.9
  mod_init@Base 1.0
+invert.so libts0 #MINVER#
+ mod_init@Base 1.0
+ invert_mod_init@Base 1.15
 linear.so libts0 #MINVER#
  linear_mod_init@Base 1.0
  mod_init@Base 1.0
+lowpass.so libts0 #MINVER#
+ mod_init@Base 1.0
+ lowpass_mod_init@Base 1.14
 median.so libts0 #MINVER#
  median_mod_init@Base 1.3
  mod_init@Base 1.3
@@ -44,9 +50,3 @@ touchkit.so libts0 #MINVER#
 variance.so libts0 #MINVER#
  mod_init@Base 1.0
  variance_mod_init@Base 1.0
-lowpass.so libts0 #MINVER#
- mod_init@Base 1.0
- lowpass_mod_init@Base 1.14
-invert.so libts0 #MINVER#
- mod_init@Base 1.0
- invert_mod_init@Base 1.15
