@@ -1,0 +1,40 @@
+From 7ee93a73103b76dca7b635bb2cb2018fbe98c175 Mon Sep 17 00:00:00 2001
+From: Martin Kepplinger <martink@posteo.de>
+Date: Tue, 27 Nov 2018 10:07:32 +0100
+Subject: [PATCH 2/2] ts_config: use format argument with sprintf
+
+---
+ src/ts_config.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/src/ts_config.c b/src/ts_config.c
+index c9e9554..3b83f07 100644
+--- a/src/ts_config.c
++++ b/src/ts_config.c
+@@ -130,9 +130,9 @@ static int __ts_config(struct tsdev *ts, char **conffile_modules,
+ 				printf("TSLIB_CONFFILE: module %s %s\n",
+ 					module_name, p);
+ 			#endif
+-				sprintf(conffile_modules[line], module_name);
++				sprintf(conffile_modules[line], "%s", module_name);
+ 				if (conffile_params)
+-					sprintf(conffile_params[line], p);
++					sprintf(conffile_params[line], "%s", p);
+ 			}
+ 		} else if (strcasecmp(tok, "module_raw") == 0) {
+ 		#if !defined HAVE_STRSEP
+@@ -148,9 +148,9 @@ static int __ts_config(struct tsdev *ts, char **conffile_modules,
+ 				printf("TSLIB_CONFFILE: module_raw %s %s\n",
+ 					module_name, p);
+ 			#endif
+-				sprintf(conffile_modules[line], module_name);
++				sprintf(conffile_modules[line], "%s", module_name);
+ 				if (conffile_params)
+-					sprintf(conffile_params[line], p);
++					sprintf(conffile_params[line], "%s", p);
+ 
+ 				if (raw)
+ 					raw[line] = 1;
+-- 
+2.19.1
+
