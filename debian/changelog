@@ -1,3 +1,11 @@
+tslib (1.18-1) unstable; urgency=low
+
+  * Update to tslib version 1.18
+  * Add patches from upstream to build cleanly
+  * Add new symbols to symbols files
+
+ -- Martin Kepplinger <martink@posteo.de>  Tue, 27 Nov 2018 09:20:45 +0100
+
 tslib (1.17-1) unstable; urgency=low
 
   * Update to tslib version 1.17
