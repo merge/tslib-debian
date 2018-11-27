@@ -6,6 +6,8 @@ libts.so.0 libts0 #MINVER#
  ts_error_fn@Base 1.0
  ts_open_restricted@Base 1.13
  ts_close_restricted@Base 1.13
+ ts_conf_get@Base 1.18
+ ts_conf_set@Base 1.18
  ts_fd@Base 1.0
  ts_libversion@Base 1.10
  ts_load_module@Base 1.0
