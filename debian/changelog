@@ -1,3 +1,10 @@
+tslib (1.19-1) unstable; urgency=low
+
+  * Update to tslib version 1.19
+  * remove patches that are included upstream
+
+ -- Martin Kepplinger <martink@posteo.de>  Thu, 24 Jan 2019 09:07:55 +0100
+
 tslib (1.18-2) unstable; urgency=low
 
   * Add pkg-config build dependency (Closes:#914947)
