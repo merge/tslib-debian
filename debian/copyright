@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: tslib
 Upstream-Contact: tslib@lists.infradead.org
-Source: https://github.com/kergoth/tslib
+Source: https://github.com/libts/tslib
 
 Files: *
 License: LGPL-2+
