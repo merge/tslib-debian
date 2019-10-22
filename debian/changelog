@@ -1,3 +1,10 @@
+tslib (1.21-1) unstable; urgency=low
+
+  * Update to tslib version 1.21
+  * Add newly included filter evthres
+
+ -- Martin Kepplinger <martink@posteo.de>  Tue, 22 Oct 2019 10:44:19 +0100
+
 tslib (1.20-1) unstable; urgency=low
 
   * Update to tslib version 1.20

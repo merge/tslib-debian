@@ -27,6 +27,9 @@ debounce.so libts0 #MINVER#
 dejitter.so libts0 #MINVER#
  dejitter_mod_init@Base 1.0
  mod_init@Base 1.0
+evthres.so libts0 #MINVER#
+ mod_init@Base 1.0
+ evthres_mod_init@Base 1.21
 iir.so libts0 #MINVER#
  iir_mod_init@Base 1.9
  mod_init@Base 1.0
