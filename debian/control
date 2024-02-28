@@ -2,19 +2,20 @@ Source: tslib
 Section: embedded
 Priority: optional
 Maintainer: Martin Kepplinger <martink@posteo.de>
-Build-Depends: debhelper (>= 10), automake | automaken, autoconf, libtool, pkg-config
+Build-Depends: dpkg-dev (>= 1.22.5), debhelper (>= 10), automake | automaken, autoconf, libtool, pkg-config
 Standards-Version: 4.2.1
 Homepage: http://tslib.org
 Vcs-Git: https://github.com/merge/tslib-debian
 Vcs-Browser: https://github.com/merge/tslib-debian
 
-Package: libts0
+Package: libts0t64
+Provides: ${t64:Provides}
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: tsconf
-Replaces: tsconf
+Breaks: libts0 (<< ${source:Version}), tsconf
+Replaces: libts0, tsconf
 Multi-Arch: same
 Description: touch screen library
  Tslib is an abstraction layer for touchscreen panel events, as well as a
@@ -25,7 +26,7 @@ Description: touch screen library
 Package: libts-dev
 Architecture: any
 Section: libdevel
-Depends: libts0 (=${binary:Version}), ${misc:Depends}
+Depends: libts0t64 (=${binary:Version}), ${misc:Depends}
 Multi-Arch: same
 Description: touch screen library, development files
  Tslib is an abstraction layer for touchscreen panel events, as well as a
@@ -36,7 +37,7 @@ Description: touch screen library, development files
 
 Package: libts-bin
 Architecture: any
-Depends: libts0 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libts0t64 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: foreign
 Description: touch screen library utilities
  Tslib is an abstraction layer for touchscreen panel events, as well as a
