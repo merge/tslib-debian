@@ -11,4 +11,4 @@ cd output/tslib-sources
 uscan --force-download
 tar -xvf ../tslib-${VERSION}.tar.xz --strip-components=1
 mv ../tslib-${VERSION}.tar.xz ../tslib_${VERSION}.orig.tar.xz
-debuild
+debuild -k0x45352AD9973658B23BA379F702F708E4A5064D6B
