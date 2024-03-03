@@ -7,3 +7,4 @@ TryExec=ts_calibrate
 Exec=ts_calibrate
 Categories=Utility
 Keywords=touchscreen
+X-AppStream-Ignore=true
