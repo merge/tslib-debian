@@ -1,3 +1,15 @@
+tslib (1.23-1) unstable; urgency=low
+
+  * Update to tslib version 1.23
+  * define signing subkey for debuild
+  * libts0t64 symbols: add new filter module
+  * d/control: update pkg-config => pkgconf
+  * .desktop: add X-AppStream-Ignore=true
+  * d/control: update standards version to 4.6.2
+  * update the upstream signing key
+
+ -- Martin Kepplinger <martink@posteo.de>  Sun, 03 Mar 2024 13:51:43 +0100
+
 tslib (1.22-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
