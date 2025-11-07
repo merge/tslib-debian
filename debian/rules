@@ -37,3 +37,6 @@ override_dh_auto_configure:
 		--with-plugindir=/usr/lib/$(DEB_HOST_MULTIARCH)/ts0 \
 		--libdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH) \
 		--sysconfdir=/etc $(CROSS) $(ARCH_CONF)
+
+# Disable dh_missing
+override_dh_missing:
