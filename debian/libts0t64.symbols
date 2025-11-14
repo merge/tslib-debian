@@ -22,8 +22,8 @@ libts.so.0 libts0t64 #MINVER#
  tslib_version@Base 1.16
  ts_get_eventpath@Base 1.15
 crop.so libts0t64 #MINVER#
- crop_mod_init@Base 1.23-1
- mod_init@Base 1.23-1
+ crop_mod_init@Base 1.23
+ mod_init@Base 1.23
 debounce.so libts0t64 #MINVER#
  debounce_mod_init@Base 1.2
  mod_init@Base 1.2
