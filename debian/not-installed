@@ -1,2 +1,3 @@
 usr/lib/${DEB_HOST_MULTIARCH}/*.la
 usr/lib/${DEB_HOST_MULTIARCH}/ts0/*.la
+etc/ts.conf
